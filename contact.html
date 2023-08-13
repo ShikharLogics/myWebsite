@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio</title>
+</head>
+
+<body>
+    <section class="sub-header" id="contact-us">
+        <nav>
+            <a href="index.html"><img src="Images/Kenocodiv-logos_white.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227822.60371266777!2d80.7777021156358!3d26.848596485405682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1691575265486!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>HEADQUATERS</h5>
+                        <P>India - Uttar Pradesh</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 8808026556</h5>
+                        <P>Monday to Sataurday, 10AM to 6PM</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>orgshikhar488@gmail.com</h5>
+                        <P>Query with us</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your Email" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="comment-btn">Send Message</button>
+                </form>
+
+            </div>
+    </section>
+    <hr>
+    <!---------Footer----------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Thank you for visiting my portfolio website! It's been an incredible journey crafting and showcasing my
+            passion for Programming. I'm thrilled to share my work and experiences with you. Feel
+            free to connect with me on <span>orgshikhar488@gmail.com</span> or through the links provided above or drop
+            me a message and contact-us. Let's collaborate, innovate,
+            and create together! <br><a href="contact.html" class="connect">Contact-Us</a></p>
+        <div class="icons">
+            <a href="https://youtube.com/@KenocodivLogics" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com/kenocodiv?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Kenocodiv" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/kenocodiv-logics-184808287" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ShikharLogics" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p> copyright &copy;2023 Kenocodiv. designed by <span>ShikharR</span></p>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
